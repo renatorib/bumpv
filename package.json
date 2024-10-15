@@ -1,5 +1,5 @@
 {
-  "name": "@rena.to/bump-v",
+  "name": "bump-v",
   "version": "0.1.0",
   "description": "Bump package.json version",
   "main": "dist/index.js",
