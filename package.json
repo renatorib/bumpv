@@ -1,0 +1,33 @@
+{
+  "name": "@rena.to/bump-v",
+  "version": "0.1.0",
+  "description": "Bump package.json version",
+  "main": "dist/index.js",
+  "bin": {
+    "bump-v": "./dist/bin.js"
+  },
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.js"
+  },
+  "scripts": {
+    "lint": "tsc --noEmit",
+    "build": "rm -rf ./dist && tsup"
+  },
+  "keywords": [
+    "bump",
+    "version"
+  ],
+  "author": "Renato Ribeiro <hi@rena.to>",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  },
+  "license": "MIST",
+  "devDependencies": {
+    "@types/minimist": "^1.2.5",
+    "@types/node": "^22.7.5",
+    "tsup": "^8.3.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  }
+}
