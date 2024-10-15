@@ -1,10 +1,10 @@
 {
-  "name": "bump-v",
+  "name": "@rena.to/bumpv",
   "version": "0.1.0",
   "description": "Bump package.json version",
   "main": "dist/index.js",
   "bin": {
-    "bump-v": "./dist/bin.js"
+    "bumpv": "./dist/bin.js"
   },
   "exports": {
     "import": "./dist/index.mjs",
