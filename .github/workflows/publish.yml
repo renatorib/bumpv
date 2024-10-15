@@ -35,4 +35,4 @@ jobs:
         run: pnpm build
 
       - name: Publish packages
-        run: pnpm publish --access public
+        run: pnpm publish

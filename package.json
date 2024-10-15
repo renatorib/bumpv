@@ -10,6 +10,12 @@
     "import": "./dist/index.mjs",
     "require": "./dist/index.js"
   },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "lint": "tsc --noEmit",
     "build": "rm -rf ./dist && tsup"
